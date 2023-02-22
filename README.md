@@ -6,6 +6,14 @@ _Data Analyst / Data Science Portfolio_
 
 ### Project: [Consumer Price Index Review](https://github.com/AuRobinson/Austin_Portfolio/blob/main/project_cpi_series.R)
 
+#### BLUF
+
+This project loads the monthly Consumer Price Index (CPI) data from the Bureau of Labor Statistics (BAU).
+
+#### Story
+
+This was a quick project I put together after a few talks with some friends about the housing market and how eggs are [expensive](https://www.bls.gov/news.release/pdf/cpi.pdf). I wanted to see for myself what I could find.
+
 #### Source Details
 
 - URL: https://data.bls.gov/pdq/SurveyOutputServlet
@@ -14,7 +22,9 @@ _Data Analyst / Data Science Portfolio_
 
 #### Code
 
-![code]
+[R code](https://github.com/AuRobinson/Austin_Portfolio/blob/main/project_cpi_series.R)
+
+#### Visual
 
 ![Plot 1](https://github.com/AuRobinson/Austin_Portfolio/blob/main/cpi_line_combo.png)
 
