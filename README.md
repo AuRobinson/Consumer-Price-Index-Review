@@ -1,38 +1,34 @@
-# Austin's Portfolio
+# Consumer Price Index Review
 
-_Data Analyst / Data Science Portfolio_
-
-## R Projects
-
-### Consumer Price Index Review
-
-#### BLUF
+## BLUF
 
 This project loads the monthly Consumer Price Index (CPI) data from the Bureau of Labor Statistics (BAL).
 
-#### Story
+## Story
 
 This was a quick project I put together after a few talks with some friends about the housing market and how eggs are [expensive](https://www.bls.gov/news.release/pdf/cpi.pdf). I wanted to see for myself what I could find.
 
-#### Source Details
+## Source Details
 
 - URL: https://data.bls.gov/cgi-bin/surveymost?bls
 - CPI for All Urban Consumers (CPI-U)
 - Series ID:    CUUR0000SA0
 
-#### Code
+## Code
 
 [R code](https://github.com/AuRobinson/Austin_Portfolio/blob/main/project_cpi_series.R)
 
-#### Visual
+## Visual
 
 <img src= "https://github.com/AuRobinson/Austin_Portfolio/blob/main/cpi_line_combo.png" width=75% height=75%>
 
-#### Insights
+## Insights
 
-Just looking at the yearly averages, from 2020 to 2022 we went from an average of 258.8 to 292.65; 33.85 point increase (~13.1%). Not even 2008 - 2009 was that drastic.
+Based on the yearly averages, we can observe a significant increase from 2020 to 2022, with the average rising from 258.8 to 292.65, a 33.85 point or approximately 13.1% increase. This increase is even more substantial than what was experienced during the 2008-2009 period.
 
-| Year | cpi_mean_year |
+For reference, the table below provides the mean CPI values for the years 2017-2023:
+
+| Year | Mean CPI Value |
 | ---: | ---: |
 | 2017  | 245.1196 |
 | 2018  | 251.1068 |
@@ -42,5 +38,4 @@ Just looking at the yearly averages, from 2020 to 2022 we went from an average o
 | 2022  | 292.6549 |
 | 2023  | 299.1700 |
 
-### Notes from the Author
-- I've noticed some sites are taking the mean of the % differences rather than using ratios to better fit the differences year over year; need to explore further (2023-02-21)
+_As an author's note, it may be worth exploring the use of ratios rather than the mean percentage differences to better capture the year-over-year changes._
