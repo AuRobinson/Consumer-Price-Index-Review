@@ -4,7 +4,7 @@ _Data Analyst / Data Science Portfolio_
 
 ## R Projects
 
-### Project: Consumer Price Index Review <!-- (https://github.com/AuRobinson/Austin_Portfolio/blob/main/project_cpi_series.R) -->
+### Consumer Price Index Review
 
 #### BLUF
 
