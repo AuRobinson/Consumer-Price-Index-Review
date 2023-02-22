@@ -16,7 +16,7 @@ This was a quick project I put together after a few talks with some friends abou
 
 #### Source Details
 
-- URL: https://data.bls.gov/pdq/SurveyOutputServlet
+- URL: https://data.bls.gov/cgi-bin/surveymost?bls
 - CPI for All Urban Consumers (CPI-U)
 - Series ID:    CUUR0000SA0
 
