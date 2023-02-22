@@ -28,7 +28,19 @@ This was a quick project I put together after a few talks with some friends abou
 
 <img src= "https://github.com/AuRobinson/Austin_Portfolio/blob/main/cpi_line_combo.png" width=75% height=75%>
 
+#### Insights
 
+Just looking at the yearly averages, from 2020 to 2022 we went from an average of 258.8 to 292.65; 33.85 point increase (~13.1%). Not even 2008 - 2009 was that drastic.
 
----
+| Year | cpi_mean_year |
+| ---: | ---: |
+| 2017  | 245.1196 |
+| 2018  | 251.1068 |
+| 2019  | 255.6574 |
+| 2020  | 258.8112 |
+| 2021  | 270.9698 |
+| 2022  | 292.6549 |
+| 2023  | 299.1700 |
 
+### Notes from the Author
+- I've noticed some sites are taking the mean of the % differences rather than using ratios to better fit the differences year over year; need to explore further (2023-02-21)
