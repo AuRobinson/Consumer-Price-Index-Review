@@ -8,7 +8,7 @@ _Data Analyst / Data Science Portfolio_
 
 #### BLUF
 
-This project loads the monthly Consumer Price Index (CPI) data from the Bureau of Labor Statistics (BAU).
+This project loads the monthly Consumer Price Index (CPI) data from the Bureau of Labor Statistics (BAL).
 
 #### Story
 
