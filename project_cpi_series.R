@@ -1,8 +1,11 @@
 library(data.table)
 library(plotly)
 
-# Maybe use BLS' API one of these days
-cpi_table <- fread("~/FILE PATH/CPI_SeriesReport.txt")
+# 1. Manual pull file from (https://data.bls.gov/cgi-bin/surveymost?bls)
+# 2. Save file as .txt to working directory (use `getwd()` to find it.)
+# 3. Replace file path in quotations for `data.table::fread()`
+
+cpi_table <- data.table::fread("~/FILE PATH/CPI_SeriesReport.txt")
 
 cpi_table_long[, Date := as.Date(paste0(Year, "-", index, "-01", origin = "1970-01-01"))] 
 setorder(cpi_table_long, Date) # Order above chaos
