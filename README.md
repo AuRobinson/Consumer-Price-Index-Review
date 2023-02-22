@@ -4,7 +4,7 @@
 
 Data Analyst / Data Science Portfolio
 
-### Project: Consumer Price Index Review
+### Project: [Consumer Price Index Review](https://github.com/AuRobinson/Austin_Portfolio/blob/main/project_cpi_series.R)
 
 #### Code and Resources
 
@@ -12,3 +12,4 @@ Data Analyst / Data Science Portfolio
 - CPI for All Urban Consumers (CPI-U)
 - Series ID:    CUUR0000SA0
 
+**Plot 1**
