@@ -26,7 +26,7 @@ This was a quick project I put together after a few talks with some friends abou
 
 Based on the yearly averages, we can observe a significant increase from 2020 to 2022, with the average rising from 258.8 to 292.65, a 33.85 point or approximately 13.1% increase. This increase is even more substantial than what was experienced during the 2008-2009 period.
 
-For reference, the table below provides the mean CPI values for the years 2017-2023:
+For reference, the table below provides the mean CPI values year-over-year for the years 2017-2023:
 
 | Year | Mean CPI Value |
 | ---: | ---: |
