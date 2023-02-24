@@ -39,3 +39,4 @@ For reference, the table below provides the mean CPI values year-over-year for t
 | 2023  | 299.1700 |
 
 _As an author's note, it may be worth exploring the use of ratios rather than the mean percentage differences to better capture the year-over-year changes._
+<!-- _Further exploration based on this [post](https://www.linkedin.com/in/aurobinson/recent-activity/shares/)._ -->
