@@ -7,7 +7,7 @@ library(plotly)
 
 cpi_table <- data.table::fread("~/FILE PATH/CPI_SeriesReport.txt")
 
-cpi_table_long[, Date := as.Date(paste0(Year, "-", index, "-01", origin = "1970-01-01"))] 
+cpi_table_long[, Date := as.Date(paste0(Year, "-", index, "-01", origin = "1970-01-01"))]
 setorder(cpi_table_long, Date) # Order above chaos
 cpi_table_long[, Difference := c(NA, diff(CPI))] # Find month over month difference (first obs. is NA)
 
@@ -25,7 +25,7 @@ cpi_table_long <-
 month_table <- data.table(
  index = c(1:12),
  month = c(
-  "Jan", "Feb", "Mar", "Apr", "May","Jun",
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
  )
 )
@@ -50,7 +50,7 @@ plot_ly(
  name = "CPI (left)",
  type = "scatter",
  mode = "lines"
-) |> 
+) |>
  add_trace(
   y = ~ Difference,
   alpha = 0.5,
@@ -70,5 +70,5 @@ plot_ly(
  data = cpi_table_long,
  x = ~ Year,
  y = ~ Difference,
- type = 'box'
+ type = "box"
 )
